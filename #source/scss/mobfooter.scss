@@ -1,0 +1,286 @@
+.mob-footer {
+    background-color: #ececec;
+    .btn-wrap {
+        display: none;
+        margin: 0px auto 70px;
+    }
+    &__menu {
+        li {
+            margin: 0px 0px 20px 0px;
+        }
+    }
+
+    &__menu-link {
+        font-size: 20px;
+        font-family: $gm;
+        line-height: 26px;
+        color: #000;
+        display: block;
+        display: inline-block;
+        position: relative;
+        &:before {
+            content: "";
+            width: 0;
+            height: 2px;
+            background: #000;
+            position: absolute;
+            bottom: -3px;
+            left: 50%;
+            transition: all 0.3s ease;
+        }
+        @media (min-width: 992px) {
+            &:hover:before {
+                width: 100%;
+                transition: all 0.3s ease;
+                left: 0;
+            }
+        }
+    }
+
+    &__contacts {
+    }
+
+    &__contacts-item {
+        @include flexbox();
+        align-items: center;
+        margin: 0px 0px 30px 0px;
+    }
+
+    &__contacts-icon {
+        width: 50px;
+        height: 50px;
+        border-radius: 50%;
+        border: 1px solid #8da93e;
+        padding: 14px;
+        margin: 0px 30px 0px 0px;
+        transition: all 0.3s;
+        @media (min-width: 992px) {
+            &:hover {
+                @include scale(1.1);
+            }
+        }
+
+        img {
+            display: block;
+            max-width: 100%;
+        }
+    }
+
+    &__contacts-text {
+        font-size: 20px;
+        font-family: $gl;
+    }
+
+    @media (max-width: $md2+px) {
+        &__menu {
+            li {
+                margin: 0px 0px 30px 0px;
+            }
+        }
+        .btn-wrap {
+            @include flexbox();
+        }
+        &__menu-link {
+            display: block;
+            text-align: center;
+        }
+        &__contacts-icon {
+            margin: 0px 15px 0px 0px;
+        }
+        &__contacts-text {
+            font-size: 18px;
+            font-family: $gl;
+        }
+        &__contacts {
+            max-width: 220px;
+            margin: 0px auto;
+        }
+    }
+}
+
+.mob-footer-body {
+    padding: 70px 0px;
+    @include flexbox();
+    margin: 0px -70px;
+    &__column {
+        padding: 0px 70px;
+        flex: 0 0 33.333%;
+        &:first-child {
+            padding: 0px 25px 0px 70px;
+        }
+    }
+    &__item {
+    }
+
+    &__item-title {
+        margin: 0px 0px 40px 0px;
+        &.mob {
+            display: none;
+        }
+    }
+
+    &__item-text {
+        color: #797979;
+        line-height: 25px;
+        font-size: 20px;
+        margin: 0px 0px 39px 0px;
+    }
+
+    &__item-form {
+    }
+    @media (max-width: $md1+px) {
+        margin: 0px -30px;
+        &__column {
+            padding: 0px 30px;
+            flex: 0 0 30%;
+            &:first-child {
+                padding: 0px 30px;
+                flex: 0 0 40%;
+            }
+        }
+    }
+    @media (max-width: $md2+px) {
+        flex-wrap: wrap;
+        padding: 60px 0px;
+        &__column {
+            flex: 0 0 100%;
+            &:first-child {
+                padding: 0px 20px;
+                flex: 0 0 100%;
+            }
+        }
+        &__item-title {
+            text-align: center;
+            margin: 0px 0px 26px 0px;
+            &.desc {
+                display: none;
+            }
+            &.mob {
+                display: block;
+            }
+        }
+        &__item-text {
+            text-align: center;
+        }
+        .form-wrap {
+            display: none;
+        }
+    }
+}
+.mob-footer-block {
+    background-color: #2589de;
+    &__row {
+        @include flexbox();
+        align-items: center;
+        padding: 16px 0px;
+    }
+
+    &__logo {
+        display: block;
+        width: 183px;
+        margin: 0px 200px 0px 0px;
+        img {
+            display: block;
+            max-width: 100%;
+        }
+    }
+
+    &__roots {
+    }
+
+    &__roots-link {
+        display: block;
+        font-size: 18px;
+        text-transform: uppercase;
+        color: #fff;
+        letter-spacing: 2px;
+        font-family: $gl;
+        margin: 0px 0px 5px 0px;
+        position: relative;
+        &:before {
+            content: "";
+            width: 0;
+            height: 1px;
+            background: #fff;
+            position: absolute;
+            bottom: -3px;
+            left: 50%;
+            transition: all 0.3s ease;
+        }
+        @media (min-width: 992px) {
+            &:hover:before {
+                width: 100%;
+                transition: all 0.3s ease;
+                left: 0;
+            }
+        }
+    }
+
+    &__roots-text {
+        font-size: 18px;
+        text-transform: uppercase;
+        color: #fff;
+        font-family: $gl;
+    }
+
+    &__btns {
+        margin-left: auto;
+        @include flexbox();
+    }
+
+    &__btn {
+        font-size: 14px;
+        background: #fff;
+        color: #000;
+        font-family: $gm;
+        margin: 0px 22px 0px 0px;
+        &:hover {
+            box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
+            background: #fff;
+        }
+        &:last-child {
+            margin: 0px 0px 0px 0px;
+            background: transparent;
+            border: 1px solid #fff;
+            color: #fff;
+            &:hover {
+                box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+            }
+        }
+    }
+    @media (max-width: $md1+px) {
+        &__logo {
+            margin: 0px 50px 0px 0px;
+        }
+    }
+    @media (max-width: $md2+px) {
+        &__row {
+            justify-content: space-between;
+        }
+        &__btns {
+            display: none;
+        }
+        &__roots-link {
+            font-size: 14px;
+            letter-spacing: 1.5px;
+        }
+        &__roots-text {
+            font-size: 14px;
+        }
+        &__row {
+            padding: 9px 0px;
+        }
+        &__logo {
+            width: 125px;
+            margin: 0px 44px 0px 0px;
+        }
+        &__roots-link {
+            font-size: 10px;
+            letter-spacing: 1.5px;
+            white-space: nowrap;
+        }
+        &__roots-text {
+            font-size: 10px;
+        }
+    }
+}

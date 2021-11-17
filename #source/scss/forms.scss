@@ -1,0 +1,98 @@
+//<FORM (a.f+tab)>====================================================================================================
+.form {
+}
+.form-row {
+	@include flexbox();
+	margin: 0px -15px;
+}
+.form__column {
+	padding: 0px 15px;
+}
+.form-input {
+}
+.form-button {
+}
+//</FORM>====================================================================================================
+
+//<BUTTONS (a.btn+tab)>====================================================================================================
+.btn {
+	display: inline-block;
+	padding: 0px 0px;
+	&:hover {
+	}
+	&.fw {
+		width: 100%;
+	}
+}
+//</BUTTONS>====================================================================================================
+
+//<INPUT (inp+tab)>====================================================================================================
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+textarea {
+	-webkit-appearance: none;
+	-moz-appearance: none;
+	appearance: none;
+}
+.input {
+	width: 100%;
+	display: block;
+	padding: 0px 20px;
+	&.focus {
+	}
+	&.err {
+	}
+}
+textarea.input {
+	resize: none;
+	padding: 0px 0px;
+}
+//</INPUT>====================================================================================================
+
+//<CHECK (chk+tab)>====================================================================================================
+.check {
+	position: relative;
+	padding-left: 36px;
+	color: #000;
+	line-height: 18px;
+	font-size: 17px;
+	cursor: pointer;
+	input {
+		display: none;
+	}
+	&:before {
+		content: "";
+		left: 0;
+		top: -4px;
+		width: 26px;
+		height: 26px;
+		border-radius: 50%;
+		border: 1px solid #a3a3a3;
+		position: absolute;
+	}
+	&.active {
+		&:after {
+			content: "";
+			background: #2992eb;
+			position: absolute;
+			left: 4px;
+			top: 0px;
+			width: 18px;
+			height: 18px;
+			border-radius: 50%;
+		}
+		@media (max-width: 576px) {
+			&:after {
+				content: "";
+				left: 3px;
+				top: -1px;
+				width: 15px;
+				height: 15px;
+			}
+		}
+	}
+}
+//</CHECK>====================================================================================================
+
+//<OPTIONS (opt+tab)>====================================================================================================

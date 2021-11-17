@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<!-- Creator: CorelDRAW X6 -->
+<svg xmlns="http://www.w3.org/2000/svg" xml:space="preserve" width="188.336mm" height="188.336mm" version="1.1" style="shape-rendering:geometricPrecision; text-rendering:geometricPrecision; image-rendering:optimizeQuality; fill-rule:evenodd; clip-rule:evenodd"
+viewBox="0 0 37786 37786"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+ <defs>
+  <style type="text/css">
+   <![CDATA[
+    .fil0 {fill:#2589DE}
+    .fil1 {fill:#2C95F2}
+    .fil5 {fill:#7D9637}
+    .fil4 {fill:#8DA93E}
+    .fil2 {fill:#C4F3FF}
+    .fil3 {fill:white}
+   ]]>
+  </style>
+ </defs>
+ <g id="Слой_x0020_1">
+  <metadata id="CorelCorpID_0Corel-Layer"/>
+  <path class="fil0" d="M18893 0l-9446 18893 9446 18893c10434,0 18893,-8459 18893,-18893 0,-10434 -8459,-18893 -18893,-18893z"/>
+  <path class="fil1" d="M0 18893c0,10434 8459,18893 18893,18893l0 -37786c-10434,0 -18893,8459 -18893,18893l0 0z"/>
+  <path class="fil2" d="M18893 4428l-7232 14465 7232 14465c7989,0 14465,-6476 14465,-14465 0,-7989 -6476,-14465 -14465,-14465z"/>
+  <path class="fil3" d="M4428 18893c0,7989 6476,14465 14465,14465l0 -28930c-7989,0 -14465,6476 -14465,14465l0 0z"/>
+  <polygon class="fil4" points="22024,20459 18893,17327 17417,17327 18893,20459 20459,22024 "/>
+  <polygon class="fil4" points="12605,11039 11039,12605 18893,20459 18893,17327 "/>
+  <polygon class="fil5" points="25207,11013 18893,17327 17417,20459 18893,20459 26773,12579 "/>
+  <polygon class="fil5" points="15762,20459 17327,22024 18893,20459 18893,17327 "/>
+  <polygon class="fil5" points="20000,6642 18893,6642 18155,7749 18893,8856 20000,8856 "/>
+  <polygon class="fil4" points="17786,6642 18893,6642 18893,8856 17786,8856 "/>
+  <polygon class="fil5" points="20000,28930 18893,28930 18155,30037 18893,31144 20000,31144 "/>
+  <polygon class="fil4" points="17786,28930 18893,28930 18893,31144 17786,31144 "/>
+  <polygon class="fil4" points="6642,20000 6642,17786 8856,17786 8856,20000 "/>
+  <polygon class="fil5" points="28930,20000 28930,17786 31144,17786 31144,20000 "/>
+ </g>
+</svg>
